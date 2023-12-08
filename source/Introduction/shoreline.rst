@@ -185,6 +185,7 @@ Shoreline data derived from sentinel-2 imagery in this region reveals a spatial 
 .. image:: images/mauritius/shorelinechangerate.png
    :align: left
    :width: 45%
+
 .. image:: images/mauritius/Growthandretreat.png
    :align: right
    :width: 45%
