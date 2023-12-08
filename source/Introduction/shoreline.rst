@@ -199,6 +199,7 @@ Seychelles exhibits remarkably consistent shoreline transformation rates, showca
 .. image:: images/sychelles/shorelinechangerate.png
    :align: left
    :width: 45%
+
 .. image:: images/sychelles/Growthandretreat.png
    :align: right
    :width: 45%
@@ -226,6 +227,7 @@ The results obtained from the shoreline analysis unveil a substantial portion of
 .. image:: images/ngazidja/shorelinechangerate.png
    :align: left
    :width: 45%
+
 .. image:: images/ngazidja/Growthandretreat.png
    :align: right
    :width: 45%
@@ -239,6 +241,7 @@ An analysis of shoreline changes over six years reveals key patterns. The majori
 .. image:: images/nzwanimwali/shorelinechangerate.png
    :align: left
    :width: 45%
+
 .. image:: images/nzwanimwali/Growthandretreat.png
    :align: right
    :width: 45%
