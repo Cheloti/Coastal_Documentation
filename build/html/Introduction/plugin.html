@@ -41,7 +41,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'Introduction/plugin';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="GEOMOPHOLOGY" href="geomorphology.html" />
+    <link rel="next" title="GEOPORTAL" href="dashboard.html" />
+    <link rel="prev" title="COASTAL GEOMORPHOLOGY" href="geomorphology.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -141,7 +142,7 @@
 
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="geomorphology.html">
-                        GEOMOPHOLOGY
+                        COASTAL GEOMORPHOLOGY
                       </a>
                     </li>
                 
@@ -149,6 +150,13 @@
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
                         PLUGIN
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="dashboard.html">
+                        GEOPORTAL
                       </a>
                     </li>
                 
@@ -242,7 +250,7 @@ document.write(`
 
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="geomorphology.html">
-                        GEOMOPHOLOGY
+                        COASTAL GEOMORPHOLOGY
                       </a>
                     </li>
                 
@@ -250,6 +258,13 @@ document.write(`
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
                         PLUGIN
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="dashboard.html">
+                        GEOPORTAL
                       </a>
                     </li>
                 
@@ -328,10 +343,11 @@ document.write(`
                   
   <section id="plugin">
 <h1>PLUGIN<a class="headerlink" href="#plugin" title="Link to this heading">#</a></h1>
+</section>
 <section id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">#</a></h2>
+<h1>Installation<a class="headerlink" href="#installation" title="Link to this heading">#</a></h1>
 <section id="package-installation">
-<h3>Package Installation<a class="headerlink" href="#package-installation" title="Link to this heading">#</a></h3>
+<h2>Package Installation<a class="headerlink" href="#package-installation" title="Link to this heading">#</a></h2>
 <p>The CoGEOS Shoreline Extraction plugin works with external python libraries when handling most of its analysis.
 Therefore, before the plugn is installed, you would have to install all external libraries with the following procedure.</p>
 <ol class="arabic simple">
@@ -352,8 +368,9 @@ Therefore, before the plugn is installed, you would have to install all external
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error installing the dependencies: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
+</section>
 <section id="install-the-plugin">
-<h4>Install the Plugin<a class="headerlink" href="#install-the-plugin" title="Link to this heading">#</a></h4>
+<h2>Install the Plugin<a class="headerlink" href="#install-the-plugin" title="Link to this heading">#</a></h2>
 <blockquote>
 <div><p>To install the plugin, follow the following procedure.</p>
 <ol class="arabic simple">
@@ -374,14 +391,13 @@ Therefore, before the plugn is installed, you would have to install all external
 </div></blockquote>
 </section>
 </section>
-</section>
 <section id="shoreline-extraction">
-<h2>Shoreline Extraction<a class="headerlink" href="#shoreline-extraction" title="Link to this heading">#</a></h2>
+<h1>Shoreline Extraction<a class="headerlink" href="#shoreline-extraction" title="Link to this heading">#</a></h1>
 <blockquote>
 <div><p>The development of this plugin has been specifically designed to extract shorelines utilizing a flexible approach, making use of both radar and optical imagery sources. The selection of which type of imagery to use is contingent upon the particular focus and requirements of the user.</p>
 </div></blockquote>
 <section id="extraction-with-optical-imagery">
-<h3>Extraction with Optical Imagery<a class="headerlink" href="#extraction-with-optical-imagery" title="Link to this heading">#</a></h3>
+<h2>Extraction with Optical Imagery<a class="headerlink" href="#extraction-with-optical-imagery" title="Link to this heading">#</a></h2>
 <blockquote>
 <div><p>Shoreline Extraction using optical imagery is configured to follow the following steps.</p>
 <blockquote>
@@ -394,10 +410,8 @@ Therefore, before the plugn is installed, you would have to install all external
 </div></blockquote>
 </div></blockquote>
 </section>
-</section>
-</section>
 <section id="download-optical-imagery">
-<span id="downloadimagery"></span><h1>Download Optical Imagery<a class="headerlink" href="#download-optical-imagery" title="Link to this heading">#</a></h1>
+<span id="downloadimagery"></span><h2>Download Optical Imagery<a class="headerlink" href="#download-optical-imagery" title="Link to this heading">#</a></h2>
 <blockquote>
 <div><p>Multiband Sentinel 2 Images at a resolution of 10m are downloaded with the help of the <em>earthengine-api</em>. The result is an image with <strong>4 bands</strong>, that is, <em>Red,Green, Blue and NIR</em>. For shoreline extraction, the NIR band is of importance. The Red, Green and Blue band can be used to create a basemap for confirmation.</p>
 <figure class="align-center" id="id3">
@@ -423,7 +437,7 @@ Therefore, before the plugn is installed, you would have to install all external
 </div></blockquote>
 </section>
 <section id="shorelineextractionoptical">
-<span id="id1"></span><h1>Shoreline Extraction<a class="headerlink" href="#shorelineextractionoptical" title="Link to this heading">#</a></h1>
+<span id="id1"></span><h2>Shoreline Extraction<a class="headerlink" href="#shorelineextractionoptical" title="Link to this heading">#</a></h2>
 <blockquote>
 <div><p>Shoreline extraction with optical imagery uses the Near Infrared band to delineate land and water masses. It takes a singleband or multiband raster image from which the
 Near Infrared band can be selected for use in the analysis. The output is a <strong>GeoJSON</strong> file with a polygon showing the land mass including the shoreline. From this, the shoreline can be extracted.</p>
@@ -440,7 +454,10 @@ Near Infrared band can be selected for use in the analysis. The output is a <str
 <li><p><strong>Output Foder</strong> - This is the directory where you want to save the extracted shoreline.</p></li>
 </ol>
 </div></blockquote>
-<blockquote id="sarextraction">
+</section>
+<section id="extraction-with-sar-imagery">
+<span id="sarextraction"></span><h2>Extraction with SAR Imagery<a class="headerlink" href="#extraction-with-sar-imagery" title="Link to this heading">#</a></h2>
+<blockquote>
 <div><p>This method of shoreline extraction uses <strong>Synthetic Aperture Radar</strong> imagery from <strong>Sentinel 1</strong> to delineate water masses. The result is a <strong>GeoJSON</strong> file showing the edges from which shorelines can be estimated.
 This tehnique uses the <strong>earthengine-api</strong> meaning the image doesnâ€™t necessarily have to be within your local directory. You only have to provide a <strong>gridded</strong> shapefile showing your Area of Interest (AOI).</p>
 <figure class="align-center" id="id5">
@@ -461,8 +478,10 @@ This tehnique uses the <strong>earthengine-api</strong> meaning the image doesnâ
 <p>The bound in should be <strong>gridded</strong> to reduce download and processing time.</p>
 </div>
 </div></blockquote>
+</section>
+</section>
 <section id="shoreline-change-computation">
-<span id="shorelinechange"></span><h2>Shoreline Change Computation<a class="headerlink" href="#shoreline-change-computation" title="Link to this heading">#</a></h2>
+<span id="shorelinechange"></span><h1>Shoreline Change Computation<a class="headerlink" href="#shoreline-change-computation" title="Link to this heading">#</a></h1>
 <blockquote>
 <div><p>Once a user has obtained the shorelines, changes can be computed regardless of the technique chosen.
 This section takes a baseline and comparison shoreline together with their respective years from which the rates of change can be computed.</p>
@@ -490,7 +509,6 @@ This section takes a baseline and comparison shoreline together with their respe
 </ul>
 </div></blockquote>
 </section>
-</section>
 
 
                 </article>
@@ -508,8 +526,17 @@ This section takes a baseline and comparison shoreline together with their respe
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">GEOMOPHOLOGY</p>
+        <p class="prev-next-title">COASTAL GEOMORPHOLOGY</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="dashboard.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">GEOPORTAL</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -526,25 +553,20 @@ This section takes a baseline and comparison shoreline together with their respe
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">PLUGIN</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installation">Installation</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#package-installation">Package Installation</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#install-the-plugin">Install the Plugin</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">PLUGIN</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#installation">Installation</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#package-installation">Package Installation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#install-the-plugin">Install the Plugin</a></li>
 </ul>
 </li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#shoreline-extraction">Shoreline Extraction</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extraction-with-optical-imagery">Extraction with Optical Imagery</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#download-optical-imagery">Download Optical Imagery</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#shorelineextractionoptical">Shoreline Extraction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extraction-with-sar-imagery">Extraction with SAR Imagery</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#shoreline-extraction">Shoreline Extraction</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#extraction-with-optical-imagery">Extraction with Optical Imagery</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#download-optical-imagery">Download Optical Imagery</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#shorelineextractionoptical">Shoreline Extraction</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#shoreline-change-computation">Shoreline Change Computation</a></li>
-</ul>
-</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#shoreline-change-computation">Shoreline Change Computation</a></li>
 </ul>
 
   </nav></div>
