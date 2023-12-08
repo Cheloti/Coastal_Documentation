@@ -210,11 +210,11 @@ Mayotte Island-Comoros
 
 The results delineate the shoreline's transformation rates, where high erosion predominantly covers 64.8% of the shoreline changes. Following high erosion, the second most significant change rate is found to be low change, accounting for 12.0% of the alterations. High retreat, moderate erosion, and moderate retreat come next in line, contributing 10%, 9.4%, and 3.9%, respectively, to the total observed changes. This study further highlights a concerning situation, with a substantial portion of the overall shoreline change area undergoing retreat (86.4%), while a small segment represents growth areas, constituting only 13.6% of the observed alterations.
 
-.. image:: images/Mayotte/shorelinechangerate.png
+.. image:: images/mayotte/shorelinechangerate.png
    :align: left
    :width: 45%
 
-.. image:: images/Mayotte/Growthandretreat.png
+.. image:: images/mayotte/Growthandretreat.png
    :align: right
    :width: 45%
 
