@@ -1,6 +1,6 @@
-
+=======
 PLUGIN
-_______
+=======
 
 ==============
 Installation
@@ -23,7 +23,7 @@ Therefore, before the plugn is installed, you would have to install all external
 .. |editor| image:: images/plugin/showeditor.png
     :scale: 70%
 
-
+--------------------
 Install the Plugin
 --------------------
 
@@ -60,8 +60,9 @@ Extraction with Optical Imagery
 
 .. _downloadimagery:
 
+-------------------------
 Download Optical Imagery
-_________________________
+-------------------------
 
  Multiband Sentinel 2 Images at a resolution of 10m are downloaded with the help of the *earthengine-api*. The result is an image with **4 bands**, that is, *Red,Green, Blue and NIR*. For shoreline extraction, the NIR band is of importance. The Red, Green and Blue band can be used to create a basemap for confirmation.
 
@@ -85,8 +86,9 @@ _________________________
 
 .. _shorelineextractionoptical:
 
+---------------------
 Shoreline Extraction
-_________________________
+---------------------
 
  Shoreline extraction with optical imagery uses the Near Infrared band to delineate land and water masses. It takes a singleband or multiband raster image from which the
  Near Infrared band can be selected for use in the analysis. The output is a **GeoJSON** file with a polygon showing the land mass including the shoreline. From this, the shoreline can be extracted.
