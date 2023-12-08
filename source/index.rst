@@ -7,15 +7,15 @@ Welcome to CoGEOS's documentation!
 ==================================
 
 .. toctree::
-   :maxdepth: 8
+   :maxdepth: 5
    :caption: Contents:
 
    
 
-   /Introduction/shoreline
-   /Introduction/geomorphology
-   /Introduction/plugin
-   /Introduction/dashboard
+   Introduction/shoreline
+   Introduction/geomorphology
+   Introduction/plugin
+   Introduction/dashboard
 
 
 
