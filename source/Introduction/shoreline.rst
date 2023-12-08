@@ -211,6 +211,7 @@ The results delineate the shoreline's transformation rates, where high erosion p
 .. image:: images/Mayotte/shorelinechangerate.png
    :align: left
    :width: 45%
+
 .. image:: images/Mayotte/Growthandretreat.png
    :align: right
    :width: 45%
@@ -263,7 +264,7 @@ Mayotte Island-Comoros
 
 The island of Mayotte grapples with the significant challenge of high erosion levels, stemming from a multifaceted set of factors, prominently including human settlements along its coastal areas. This assertion gains substantial support from research findings, which prominently reveal heightened erosion trends across a substantial portion of the island's coastal settlements. Furthermore, the erosive impacts of tidal wave actions upon the shoreline play a pivotal role in exacerbating this situation. The absence of a biologically diverse shoreline landscape further compounds the predicament by rendering the coastline devoid of natural protective buffers, thus leaving it exposed and susceptible to erosion. This discerning analysis of the results accentuates the pressing need for proactive management strategies to harmonize coastal development endeavors with the imperatives of environmental preservation.
 
--------------------------
+--------------------------
 Ngazidja Island-Comoros
 --------------------------
 
