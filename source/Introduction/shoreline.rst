@@ -1,3 +1,4 @@
+==========
 SHORELINE
 ==========
 
@@ -171,6 +172,7 @@ Shoreline extraction process from sentinel 1 is quite different as that of senti
       The water mask image is vectorized to create a polyline boundary of the shoreline, which basically has a stair-like shape. This boundary line is then converted to a smooth shoreline through shape-correction process. The shape-corrected shoreline is treated as the main shoreline for calculating growth and retreat distance and rate per year between the past and present time based on transect method.
 
 
+========
 Results
 ========
 
@@ -187,7 +189,7 @@ Shoreline data derived from sentinel-2 imagery in this region reveals a spatial 
    :align: right
    :width: 45%
 
------------
+------------
 Seychelles
 ------------
 
